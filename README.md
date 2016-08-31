@@ -1,14 +1,21 @@
 # NAME
 
-WWW::Baidu::ZhanZhang - Blah blah blah
+WWW::Baidu::ZhanZhang - Baidu ZhanZhang push links
 
 # SYNOPSIS
 
     use WWW::Baidu::ZhanZhang;
 
+    my $zz = WWW::Baidu::ZhanZhang->new(
+      site  => 'betsapi.com',
+      token => 'abc'
+    );
+
+    my $data = $zz->post_urls('http://betsapi.com/c/Soccer', 'http://betsapi.com/c/Tennis');
+
 # DESCRIPTION
 
-WWW::Baidu::ZhanZhang is
+you can get the token from [http://zhanzhang.baidu.com/linksubmit/index](http://zhanzhang.baidu.com/linksubmit/index)
 
 # AUTHOR
 

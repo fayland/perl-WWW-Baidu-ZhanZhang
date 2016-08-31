@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Baidu ZhanZhang push links",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -37,7 +37,7 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Mojolicious" : "0"
          }
       },
       "test" : {
@@ -47,6 +47,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-WWW-Baidu-ZhanZhang/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-WWW-Baidu-ZhanZhang",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-WWW-Baidu-ZhanZhang.git",
+         "web" : "https://github.com/fayland/perl-WWW-Baidu-ZhanZhang"
+      }
+   },
    "version" : "0.01"
 }
 
